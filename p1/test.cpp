@@ -1,5 +1,14 @@
 #include <iostream>
 
+void read() {
+    std::cout << "basic calc"<< std::endl;
+    int var1;
+    int var2;
+    std::cin >> var1;
+    std::cin >> var2;
+    std::cout << "= " << var1 + var2;
+}
+
 int main() {
     std::cout << "hello world" << std::endl;
     int age = 10;
@@ -15,5 +24,8 @@ int main() {
 
     auto num4 = 124; //автоматически подберает тип 
 
+    read();
+
     return 0;
 }
+
