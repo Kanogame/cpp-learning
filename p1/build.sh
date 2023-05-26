@@ -1,3 +1,3 @@
 #!/bin/bash
 
-g++ test.cpp -o executable -iX11
+ g++ test.cpp -o test
