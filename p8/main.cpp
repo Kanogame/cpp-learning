@@ -1,6 +1,6 @@
 #include <iostream>
 
-void print(std::string, unsigned = 18);
+void print(std::string, const unsigned = 18);
 
 int main() {
     print("Sam");       // Sam 18
@@ -8,6 +8,7 @@ int main() {
     return 0
 }
 
-void print(std::string name, unsigned age) {
+void print(std::string name, const unsigned age) {
+    //age++; - нельзя
     std::cout << name << age << std::endl;
 }
